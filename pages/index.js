@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.home}>
       <div>
-        <h1>Carolina Wenzel </h1>
+        <h1>Carolin Wenzel </h1>
       </div>
     </div>
   );
