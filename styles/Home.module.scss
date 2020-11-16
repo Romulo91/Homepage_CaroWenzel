@@ -1,0 +1,22 @@
+.home {
+  position: relative;
+  background-image: url("../public/octogross.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  > div {
+    position: absolute;
+    left: auto;
+    top: 50%;
+    left: 200px;
+    > h1 {
+      color: #fff;
+      font-size: 70px;
+      text-transform: none;
+      letter-spacing: 0.3em;
+      line-height: 1.5em;
+    }
+  }
+}
