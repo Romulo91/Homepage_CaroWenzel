@@ -8,6 +8,7 @@
   background-size: cover;
   > div {
     position: absolute;
+    text-align: center;
     left: auto;
     top: 50%;
     left: 200px;
@@ -17,6 +18,22 @@
       text-transform: none;
       letter-spacing: 0.3em;
       line-height: 1.5em;
+    }
+    > a {
+      background-color: transparent;
+      border-radius: 28px;
+      border: 2px solid #fff;
+      display: inline-block;
+      cursor: pointer;
+      color: #fff;
+      font-family: Arial;
+      font-size: 30px;
+      padding: 20px 70px;
+      text-decoration: none;
+      text-shadow: 0px 1px 0px #3d768a;
+    }
+    > a:hover {
+      background-color: #248796;
     }
   }
 }

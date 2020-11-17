@@ -6,6 +6,9 @@ export default function Home() {
     <div className={styles.home}>
       <div>
         <h1>Carolin Wenzel </h1>
+        <a href="#" className={styles.button}>
+          Enter
+        </a>
       </div>
     </div>
   );
