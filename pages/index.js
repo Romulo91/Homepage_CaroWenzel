@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import styles from "../styles/Home.module.scss";
 
 export default function Home() {
@@ -6,9 +7,9 @@ export default function Home() {
     <div className={styles.home}>
       <div>
         <h1>Carolin Wenzel </h1>
-        <a href="#" className={styles.button}>
-          Enter
-        </a>
+        <Link href="/about">
+          <a> Enter</a>
+        </Link>
       </div>
     </div>
   );
