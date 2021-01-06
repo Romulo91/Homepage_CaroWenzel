@@ -5,17 +5,29 @@
   > div {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 0.6rem;
     position: relative;
-    height: 100px;
+    height: 150px;
+
     > nav {
       display: flex;
-      gap: 1.5rem;
-      > a {
-        font-weight: 600;
-        font-size: 20px;
-        letter-spacing: 1px;
-        margin-right: 10px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      > div {
+        > h1 {
+          padding-top: 60px;
+          font-family: "Redressed", cursive;
+          font-size: 40px;
+        }
+        > a {
+          font-weight: 600;
+          font-size: 25px;
+          letter-spacing: 2px;
+          margin-right: 30px;
+        }
       }
     }
   }
