@@ -7,7 +7,7 @@ export default function Home() {
     <div className={styles.home}>
       <div>
         <h1>Carolin Wenzel </h1>
-        <Link href="/about">
+        <Link href="/home">
           <a> Enter</a>
         </Link>
       </div>

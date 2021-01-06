@@ -1,0 +1,14 @@
+.homeImg {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+
+  > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    // width: 75vw;
+    // height: 85vh;
+  }
+}

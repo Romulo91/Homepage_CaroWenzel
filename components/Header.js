@@ -19,8 +19,8 @@ const Header = () => {
             <a href="/home" s>
               Home
             </a>
-            <a href="/about">About</a>
             <a href="/fotoalbum">Fotoalbum</a>
+            <a href="/about">About</a>
           </div>
         </nav>
       </div>
